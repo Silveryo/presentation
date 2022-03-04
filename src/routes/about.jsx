@@ -1,19 +1,30 @@
-import Navigation from "../components/Navigation";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Body from "../components/body";
 
 const About = () => {
   return (
-    <>
-      <Navigation />
-      <Header />
-      <main className="max-w-7xl min-h-screen mx-auto py-6 sm:px-6 lg:px-8">
-        <div className="px-4 py-6 sm:px-0">
-          <div className="h-auto overflow-auto">About page lol</div>
-        </div>
-      </main>
-      <Footer />
-    </>
+    <Body title={"About"}>
+      <article className="prose">
+      <h1><a href="https://github.com/Silveryo/presentation">GitHub</a></h1>
+        <p>
+          Stránka byla vytvořena jakožto projekt pro předmět NTI/VIS (2021).
+          Zdrojem informací o motýlech je{" "}
+          <a href="https://en.wikipedia.org/wiki/Butterfly">wikipedia</a>, pokud
+          není uvedeno jinak.
+        </p>
+        <h3>HTML</h3>
+        <p>
+          Web obsahuje jednoduché tagy paragraph, heading, table, list (a
+          podmnožné tagy), article, blockquote a určitě se najdou i další.
+          Znovupoužitelné komponenty (navigace, hlavička a zápatí) jsou zabaleny v sémantických elementech.
+        </p>
+        <h3>CSS</h3>
+        <p>
+          O css se stará <a href="https://tailwindcss.com/">Tailwind CSS</a>.
+          Responzivita je tvořena pomocí výchozích breakpointů knihovny. Menu se
+          při zobrazení na mobilních zařízení přemění na známé 'Hamburger menu'
+        </p>
+      </article>
+    </Body>
   );
 };
 

@@ -1,19 +1,27 @@
-import Navigation from "../components/Navigation";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Body from "../components/body";
+import Image from "../components/image";
+
+import hesperia from "../images/Hesperia.jpg";
+import macrosoma from "../images/Macrosoma.jpg";
+import maculinea from "../images/Maculinea.jpg";
+import parthenos from "../images/Parthenos.jpg";
+import midflight from "../images/Butterfly_midflight.jpg";
 
 const Media = () => {
   return (
-    <>
-      <Navigation />
-      <Header />
-      <main className="max-w-7xl min-h-screen mx-auto py-6 sm:px-6 lg:px-8">
-        <div className="px-4 py-6 sm:px-0">
-          <div className="h-auto overflow-auto">Media page lol</div>
-        </div>
-      </main>
-      <Footer />
-    </>
+    <Body title={"Media"}>
+      <div className="grid grid-cols-2 gap-4">
+        <Image src={hesperia} alt={"Hesperia"} caption={"Hesperia"} />
+        <Image src={macrosoma} alt={"Macrosoma"} caption={"Macrosoma"} />
+        <Image src={maculinea} alt={"Maculinea"} caption={"Maculinea"} />
+        <Image src={parthenos} alt={"Parthenos"} caption={"Parthenos"} />
+        <Image
+          src={midflight}
+          alt={"Butterfly midflight"}
+          caption={"Butterfly midflight"}
+        />
+      </div>
+    </Body>
   );
 };
 
