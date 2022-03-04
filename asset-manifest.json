@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/presentation/static/css/main.4cb11fdf.css",
-    "main.js": "/presentation/static/js/main.066ecf13.js",
+    "main.js": "/presentation/static/js/main.bc5733f3.js",
     "static/media/Giant.jpg": "/presentation/static/media/Giant.ee14b82fb809c5c01b8c.jpg",
     "static/media/Macrosoma.jpg": "/presentation/static/media/Macrosoma.a087a9091945eab5ac29.jpg",
     "static/media/Parthenos.jpg": "/presentation/static/media/Parthenos.2313cfc92bf06ff33f16.jpg",
@@ -10,10 +10,10 @@
     "static/media/Hesperia.jpg": "/presentation/static/media/Hesperia.da101c71058a817f95c0.jpg",
     "index.html": "/presentation/index.html",
     "main.4cb11fdf.css.map": "/presentation/static/css/main.4cb11fdf.css.map",
-    "main.066ecf13.js.map": "/presentation/static/js/main.066ecf13.js.map"
+    "main.bc5733f3.js.map": "/presentation/static/js/main.bc5733f3.js.map"
   },
   "entrypoints": [
     "static/css/main.4cb11fdf.css",
-    "static/js/main.066ecf13.js"
+    "static/js/main.bc5733f3.js"
   ]
 }
