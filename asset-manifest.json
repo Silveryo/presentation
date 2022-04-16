@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/presentation/static/css/main.4cb11fdf.css",
-    "main.js": "/presentation/static/js/main.d4bb54bc.js",
+    "main.css": "/presentation/static/css/main.4052926d.css",
+    "main.js": "/presentation/static/js/main.51dbe739.js",
     "static/media/Giant.jpg": "/presentation/static/media/Giant.ee14b82fb809c5c01b8c.jpg",
     "static/media/Macrosoma.jpg": "/presentation/static/media/Macrosoma.a087a9091945eab5ac29.jpg",
     "static/media/Parthenos.jpg": "/presentation/static/media/Parthenos.2313cfc92bf06ff33f16.jpg",
@@ -9,11 +9,11 @@
     "static/media/Maculinea.jpg": "/presentation/static/media/Maculinea.7f602d37036e479cd6c1.jpg",
     "static/media/Hesperia.jpg": "/presentation/static/media/Hesperia.da101c71058a817f95c0.jpg",
     "index.html": "/presentation/index.html",
-    "main.4cb11fdf.css.map": "/presentation/static/css/main.4cb11fdf.css.map",
-    "main.d4bb54bc.js.map": "/presentation/static/js/main.d4bb54bc.js.map"
+    "main.4052926d.css.map": "/presentation/static/css/main.4052926d.css.map",
+    "main.51dbe739.js.map": "/presentation/static/js/main.51dbe739.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cb11fdf.css",
-    "static/js/main.d4bb54bc.js"
+    "static/css/main.4052926d.css",
+    "static/js/main.51dbe739.js"
   ]
 }
