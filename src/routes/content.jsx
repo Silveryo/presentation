@@ -58,6 +58,56 @@ const Content = () => {
             </tr>
           </tbody>
         </table>
+
+        {/* duplicate table to show some boring cell merges... */}
+        <table>
+          <thead className="bg-gray-50">
+            <tr>
+              <th className="px-6 py-2 text-xs text-gray-500" colSpan={3}>FAMILY</th>
+            </tr>
+          </thead>
+          <tbody className="bg-white">
+            <tr className="whitespace-nowrap">
+              <td className="px-6 py-4 text-sm text-gray-500" rowSpan={3}>BUTTERFLIES</td>
+              <td className="px-6 py-4">
+                <div className="text-sm text-gray-900">
+                  American moth-butterflies
+                </div>
+              </td>
+              <td className="px-6 py-4">
+                <div className="hidden lg:block text-sm text-gray-500">
+                  Blues, coppers, hairstreaks
+                </div>
+              </td>
+            </tr>
+            <tr className="whitespace-nowrap">
+              {/* <td className="px-6 py-4 text-sm text-gray-500" >Hesperiidae</td> */}
+              <td className="px-6 py-4">
+                <div className="text-sm text-gray-900">Skippers</div>
+              </td>
+              <td className="px-6 py-4">
+                <div className="hidden lg:block text-sm text-gray-500">
+                  Small, darting flight; clubs on antennae hooked backwards
+                </div>
+              </td>
+            </tr>
+            <tr className="whitespace-nowrap">
+              {/* <td className="px-6 py-4 text-sm text-gray-500">Lycaenidae</td> */}
+              <td className="px-6 py-4">
+                <div className="text-sm text-gray-900">
+                  Blues, coppers, hairstreaks
+                </div>
+              </td>
+              <td className="px-6 py-4">
+                <div className="hidden lg:block text-sm text-gray-500">
+                  Small, brightly coloured; often have false heads with eyespots
+                  and small tails resembling antennae
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
         <Image
           src={giant}
           alt={"A huge butterfly"}

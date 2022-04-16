@@ -1,6 +1,6 @@
-import Navigation from "../components/navigation";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Navigation from "./Navigation";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Body = (props) => {
   return (

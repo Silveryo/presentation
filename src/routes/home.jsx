@@ -6,15 +6,16 @@ const Home = () => {
       <article className="prose lg:prose-xl">
         <p>
           <h1>Butterflies</h1>
-          Butterflies are insects in the macrolepidopteran clade Rhopalocera
-          from the order Lepidoptera, which also includes moths. Adult
-          butterflies have large, often <strong>brightly coloured wings</strong>
-          , and conspicuous, fluttering flight. The group comprises the large
-          superfamily Papilionoidea, which contains at least one former group,
-          the skippers (formerly the superfamily "Hesperioidea"), and the most
-          recent analyses suggest it also contains the moth-butterflies
-          (formerly the superfamily "Hedyloidea"). Butterfly fossils date to the
-          Paleocene, about 56 million years ago.
+          <a href="#fragment" className="text-blue-500">Butter</a>flies are insects in the macrolepidopteran clade
+          Rhopalocera from the order Lepidoptera, which also includes moths.
+          Adult butterflies have large, often{" "}
+          <strong>brightly coloured wings</strong>, and conspicuous, fluttering
+          flight. The group comprises the large superfamily Papilionoidea, which
+          contains at least one former group, the skippers (formerly the
+          superfamily "Hesperioidea"), and the most recent analyses suggest it
+          also contains the moth-butterflies (formerly the superfamily
+          "Hedyloidea"). Butterfly fossils date to the Paleocene, about 56
+          million years ago.
         </p>
         <blockquote>
           The butterfly said to the sun,"They can't stop talking about my
@@ -33,7 +34,7 @@ const Home = () => {
           single generation, and a few in cold locations may take several years
           to pass through their entire life cycle.
         </p>
-        <h3>What's the connection to butter?</h3>
+        <h3 id='fragment'>What's the connection to butter?</h3>
         <p>
           Back in the Middle Ages, when dairy products were made in the
           barnyard, it is possible that butterflies snacking on discarded dairy
@@ -43,6 +44,6 @@ const Home = () => {
       </article>
     </Body>
   );
-}
+};
 
 export default Home;
